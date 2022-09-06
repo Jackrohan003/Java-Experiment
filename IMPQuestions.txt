@@ -3,6 +3,8 @@
 3)How to secure rest end point.
 4)ArrayLIst<>(100). what will be result if adding 101 element.
 5)Student(id,class,name) group the value by Class Using Stream. Output should be(Map<class,List<Student>);
+Map<class, List<Student>> studentByclass = studentlist.stream()
+  .collect(groupingBy(BlogPost::getClass));
 6)Authentication vs Authorization.
 7)what is JWT
 -------------------------------------------------
