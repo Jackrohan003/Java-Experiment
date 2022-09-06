@@ -1,0 +1,10 @@
+1)Find 1's Complement of the number.
+2)How to Execute war file.
+3)How to secure rest end point.
+4)ArrayLIst<>(100). what will be result if adding 101 element.
+5)Student(id,class,name) group the value by Class Using Stream. Output should be(Map<class,List<Student>);
+6)Authentication vs Authorization.
+7)what is JWT
+-------------------------------------------------
+8)Bean life cycle.
+9)Parent class of collection
