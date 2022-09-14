@@ -7,6 +7,32 @@ Map<class, List<Student>> studentByclass = studentlist.stream()
   .collect(groupingBy(BlogPost::getClass));
 6)Authentication vs Authorization.
 7)what is JWT
+
 -------------------------------------------------
 8)Bean life cycle.
 9)Parent class of collection
+----------------------------------------------------------------------
+-> @Component vs @Service vs @Repository 
+-> For DAO layer, what is the advanatage of using @Repository 
+-> What class is provided by Spring at root level for handling DAO exceptions - Data Access Exception 
+-> Bean Life Cycle - @PostConstruct and @PreDestroy 
+-> Advantages of Using ResponseEntity vs returning a generic object 
+-> For Delete What Status Code you should throw. 
+-> Read Timeout vs Server Timeout in an web appliation 
+-> How to implement versioning in RESTful webservices - Params, Headers, URIs 
+-> How authentication will work for your server 
+-> JWT tokens vs session based authentication (Which to use keeping in mind that REST should be stateless ) 
+-> Why do we use Bearer keyword with JWT token? 
+-> What is content negotiation? Produces and Consumes What API should accept and send 
+-> What are cross-cutting concerns in Spring and how to implement that? Spring AOP - used mainly for Global Logging / Validation 
+-> How to create custom validators for Spring? 
+
+ 
+-> How HashMap works internally? 
+-> List vs Set 
+-> For List what will be efficency of list if I initialize the capacity of the list vs letting it grow dynamically? ( Arrays.copy is called whenever the capacity is reached ) 
+-> Fail-Fast vs Fail-Safe Collections 
+-> Arrays.asList() vs new ArrayList<>() - ask for iteration and modification 
+-> CopyOnWriteArrayList uses 
+-> Singleton ( GOF Singleton vs Spring Singleton) 
+-> Spring Security Walkthrough in an application ( Basic )  
