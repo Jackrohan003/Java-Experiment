@@ -36,3 +36,4 @@ Map<class, List<Student>> studentByclass = studentlist.stream()
 -> Spring Security Walkthrough in an application ( Basic )  
 
 -> Proxy Objects and Egar and lazy fetch type.
+->Difference between @OneToMany and @ElementCollection? (https://stackoverflow.com/questions/8969059/difference-between-onetomany-and-elementcollection)
