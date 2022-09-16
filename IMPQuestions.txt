@@ -7,7 +7,6 @@ Map<class, List<Student>> studentByclass = studentlist.stream()
   .collect(groupingBy(BlogPost::getClass));
 6)Authentication vs Authorization.
 7)what is JWT
-
 -------------------------------------------------
 8)Bean life cycle.
 9)Parent class of collection
@@ -26,7 +25,6 @@ Map<class, List<Student>> studentByclass = studentlist.stream()
 -> What is content negotiation? Produces and Consumes What API should accept and send 
 -> What are cross-cutting concerns in Spring and how to implement that? Spring AOP - used mainly for Global Logging / Validation 
 -> How to create custom validators for Spring? 
-
  
 -> How HashMap works internally? 
 -> List vs Set 
@@ -36,3 +34,5 @@ Map<class, List<Student>> studentByclass = studentlist.stream()
 -> CopyOnWriteArrayList uses 
 -> Singleton ( GOF Singleton vs Spring Singleton) 
 -> Spring Security Walkthrough in an application ( Basic )  
+
+-> Proxy Objects and Egar and lazy fetch type.
