@@ -9,6 +9,11 @@ public class Test
 	{
 		System.out.println("fun(String ) ");
 	}
+	/*Compile time error (Ambiguity )
+	public void fun(Integer num)
+	{
+		System.out.println("fun(Integer ) ");
+	}     */
 
 	// Driver code 
 	public static void main(String [] args)
