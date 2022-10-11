@@ -1,0 +1,24 @@
+public class Test
+{
+	// Overloaded methods
+	public void fun(Object o)
+	{
+		System.out.println("fun (Object ) ");
+	}
+	public void fun(String name)
+	{
+		System.out.println("fun(String ) ");
+	}
+
+	// Driver code 
+	public static void main(String [] args)
+	{
+		Test mv = new Test();
+
+		// This line causes error
+		mv.fun(null);
+	}
+}
+-----------------------------------
+Output:
+fun(String)
