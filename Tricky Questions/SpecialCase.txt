@@ -39,5 +39,6 @@ fun(String)
 	}
 
 Output:World
+Explanation: Divide sign(/) has higher precedence than + operator.
 
 **********************************************************************************************************************************
