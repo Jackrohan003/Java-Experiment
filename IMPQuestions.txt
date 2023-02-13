@@ -37,3 +37,15 @@ Map<class, List<Student>> studentByclass = studentlist.stream()
 
 -> Proxy Objects and Egar and lazy fetch type.
 ->Difference between @OneToMany and @ElementCollection? (https://stackoverflow.com/questions/8969059/difference-between-onetomany-and-elementcollection)
+
+
+------------------------------------------------------------------------------------------
+circular rotated array find the key
+
+public final integer abc = null; // what would happen (nothing) we can't change the value.
+finalise method from which class (Object class)
+what is hashing.
+equals and hashcode method implementation.
+
+
+
