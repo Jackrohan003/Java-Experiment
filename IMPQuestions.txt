@@ -47,5 +47,14 @@ finalise method from which class (Object class)
 what is hashing.
 equals and hashcode method implementation.
 
+-------------------------------------------------------------------------------------
+difference between component and bean.
+what is supplier,consumer, predicate interface.
+what is binding in hibernate (parameter and namedParameter)
+difference between two date (jodo time)
+
+
+
+
 
 
