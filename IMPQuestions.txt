@@ -52,6 +52,12 @@ difference between component and bean.
 what is supplier,consumer, predicate interface.
 what is binding in hibernate (parameter and namedParameter)
 difference between two date (jodo time)
+-------------------------------------------------
+difference between component vs service
+What is controllerAdvice annotation in spring boot.
+find the second highest marks student from the list.java 8
+how to run spring boot using command line
+
 
 
 
