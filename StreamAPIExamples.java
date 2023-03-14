@@ -135,6 +135,20 @@ public class StreamAPIExamples {
 		System.out.println(notPalindromes);
 		
 	}
+	
+	private static void otherFunction(){
+	
+		//Find second highest salary employee
+		Optional<Employee> emp = employeeList.stream()
+		        .sorted(Comparator.comparingDouble(Employee::getSalary).reversed()).skip(1).findFirst();
+
+		//Grouping By example
+		List<String> items = Arrays.asList("apple", "apple", 
+				"banana", "apple", "orange", "banana", "papaya");
+		items.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+		
+		
+	}
 
 	private static void aggregatingOperationsExamples() {
 		List<String> words = Arrays.stream("Once upon a midnight dreary while I pondered weak and weary".split("\\s+"))
