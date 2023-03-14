@@ -147,6 +147,9 @@ public class StreamAPIExamples {
 				"banana", "apple", "orange", "banana", "papaya");
 		items.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
 		
+		Map<BlogPostType, List<BlogPost>> postsPerType = posts.stream()
+		  .collect(groupingBy(BlogPost::getType));
+		
 		
 	}
 
